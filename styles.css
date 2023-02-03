@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap');
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(26, 42, 51, 1);
+    padding: 118px 24px 119px 24px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(31, 54, 65, 1);
+    box-shadow: 0px -8px 0px 0px rgba(16, 33, 42, 1) inset;
+    border-radius: 15px;
+    padding: 24px 24px 30px 24px;
+    width:327px;
+}
+
+.markBox{
+    background: rgba(26, 42, 51, 1);
+    margin-top: 24px;
+    margin-bottom: 17px;
+    border-radius: 10px;
+    width: 279px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 9px;
+}
+.button-x{
+    height: 54px;
+    width: 131.98524475097656px;
+    border-radius: 10px;
+    background-color: #1A2A33;
+    border:none;
+}
+.svg-X.active path{
+    fill:#1A2A33;
+}
+/* .svg-X.active path{
+    fill:#1A2A33;
+} */
+
+
+.button-o{
+    height: 54px;
+    width: 131.98524475097656px;
+    border-radius: 10px;
+    background-color: #1A2A33;
+    border:none;
+}
+.active path{
+    fill:#1A2A33;
+}
+/* .svg-O.active path{
+    fill:#1A2A33;
+} */
+
+.pickMarks{
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(168, 191, 201, 1);
+    
+}
+.rememberNote{
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    color: rgba(168, 191, 201, 1);   
+}
+.buttonStyle{
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(26, 42, 51, 1);
+
+}
+.button1{
+    background-color: rgba(242, 177, 55, 1);
+    box-shadow: 0px -8px 0px 0px rgba(204, 139, 19, 1) inset;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+    width: 327px;
+    height: 56px;
+}
+.button2{
+    background-color: rgba(49, 195, 189, 1);
+    box-shadow: 0px -8px 0px 0px rgba(17, 140, 135, 1) inset;
+    border-radius: 15px;
+    width: 327px;
+    height: 56px;
+}
